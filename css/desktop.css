@@ -1,0 +1,29 @@
+nav {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 51px);
+    place-items: center;
+    img {
+        width: 80%;
+    }
+    :nth-child(2) {
+        grid-row: 1;
+        grid-column: 1;
+    }
+}
+
+.content {
+    width: 100%;
+    padding-left: 70px;
+}
+
+h1 {
+    font-size: 40px;
+}
